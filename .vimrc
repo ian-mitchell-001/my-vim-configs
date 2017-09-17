@@ -66,7 +66,18 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+" Edit these later...
+" *******************
+
 "------------------
 "PYTHON
 "------------------
-" Edit this later
+"
+
+"------------------
+"C
+"------------------
+
+"------------------
+"HASKELL
+"------------------
