@@ -1,21 +1,8 @@
-" My current vim config as of September 16, 2017. You should be able to run it on pretty much anything.
-" As of now, I am currently too lazy to edit the python stuff (for syntax and the like). 
-" So, I'll do it later*.
-
-"* Like I said a few months ago...
-
-"Also, the macros I use (that I'm just letting you know exist are)
-
-" @l -- :w :!pdflatex % (LaTeX Compilation)
-" @M -- :w :!markdown-pdf % (Markdown to PDF compilation)
-
-
-"------------------
 "Personalization & Theme Changes
 "------------------
-"This area is made for personalization and theme changes for vim and gvim. I'm
-"going to be honest, many of the LaTeX stuff was stuff I stole from Luke
-"Smith. Go check him out on YouTube.
+
+" **FOR ANYONE DOWNLOADING THIS:** I would suggest either (a) delete your vimrc and use this; or (b) copy what you liked from your old vimrc into here; or (c) just copy what you like here into your vimrc.
+
 set nu "Line numbering
 "set bg= dark "Background for the editor as a whole ***NOT NECESSARY ONLY FOR
 "BACKUP***
@@ -27,6 +14,10 @@ set guifont=Anonymous\ Pro\ Regular\ 11 "Set the font for the vim and gvim
 filetype plugin on
 filetype indent on
 syntax on
+
+nmap <C-V> "+gP
+imap <C-V> <ESC><C-V>i
+vmap <C-C> "+y
 
 "------------------
 "Scripts & Plugins
@@ -59,6 +50,7 @@ syntax on
 "autocmd Filetype tex inoremap ;sxx <Enter>\subsection{<++>}<Enter>T{i
 "autocmd FileType tex inoremap ;sxxx \subsubsection{<++>}T{i
 
+" Get these working later...
 
 
 "vim-plug vim package manager
@@ -66,18 +58,16 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-" Edit these later...
-" *******************
+"-----------------
+"HASKELL
+"-----------------
+
+"-----------------
+"C
+"-----------------
 
 "------------------
 "PYTHON
 "------------------
-"
 
-"------------------
-"C
-"------------------
-
-"------------------
-"HASKELL
-"------------------
+" Edit this later
