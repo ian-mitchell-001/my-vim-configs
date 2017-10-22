@@ -3,10 +3,7 @@
 set nu "Line numbering
 "set bg= dark "Background for the editor as a whole ***NOT NECESSARY ONLY FOR
 "BACKUP***
-colors zellner "Set the text color scheme. Zellner is like default, but a bit
-"more red. I originally used the Desert scheme, but, since I decided to de a
-"generic Win95 MATE Rice for my laptop, I don't need to use a dark theme for
-"my .vimrc. 
+colors desert "Set the text color scheme.
 set wrap "Line wrapping
 set lbr "Line wrapping at the word, extension of line 6
 set guifont=Anonymous\ Pro\ Regular\ 11 "Set the font for the vim and gvim
