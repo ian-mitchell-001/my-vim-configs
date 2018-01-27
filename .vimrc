@@ -11,8 +11,7 @@ filetype plugin on
 filetype indent on
 syntax on
 
-nmap <C-V> "+gP
-imap <C-V> <ESC><C-V>i
+nmap <C-P> "+gP
 vmap <C-C> "+y
 
 "------------------
@@ -54,16 +53,3 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-"-----------------
-"HASKELL
-"-----------------
-
-"-----------------
-"C
-"-----------------
-
-"------------------
-"PYTHON
-"------------------
-
-" Edit this later
