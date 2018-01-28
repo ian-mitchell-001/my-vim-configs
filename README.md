@@ -12,7 +12,7 @@ Since it supports python, it should do well to serve most people. But the C, LaT
 
 ## TODO
 
-* ~~With my plans on learning haskell (the syntax is too attractive to bear), I'm planning on adding haskell syntax support and a macro for the haskell compiler. ~~
+* ~~With my plans on learning haskell (the syntax is too attractive to bear), I'm planning on adding haskell syntax support and a macro for the haskell compiler.~~
 
 * ~~Add some better syntax support for C and python.~~
 
