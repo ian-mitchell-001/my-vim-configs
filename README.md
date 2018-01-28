@@ -5,16 +5,15 @@ The `.vimrc` I use for gvim. It's made to support
 * C;
 * Markdown;
 * Python;
-* LaTeX. 
+* Haskell;
+* and LaTeX. 
 
-So, it should do well for most programmer's needs. 
-
-**NOTE:** IF YOU HAVE THE AUTOLOAD, BUNDLE, AND DOC, DIRECTORIES ON YOUR COMPUTER, DRAG AND DROP THE CONTENTS FROM MINE INTO YOURS.
+Since it supports python, it should do well to serve most people. But the C, LaTeX, Markdown, and Haskell support should also be handy for anyone that uses those languages. 
 
 ## TODO
 
-* With my plans on learning haskell (the syntax is too attractive to bear), I'm planning on adding haskell syntax support and a macro for the haskell compiler. 
+* ~~With my plans on learning haskell (the syntax is too attractive to bear), I'm planning on adding haskell syntax support and a macro for the haskell compiler. ~~
 
-* Add some better syntax support for C and python.
+* ~~Add some better syntax support for C and python.~~
 
-* Create LaTeX shortcuts
+* Create LaTeX shortcuts. 
