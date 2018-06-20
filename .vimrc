@@ -1,4 +1,4 @@
-"Personalization & Theme Changes
+
 "------------------
 set nu "Line numbering
 "set bg= dark "Background for the editor as a whole ***NOT NECESSARY ONLY FOR
@@ -6,7 +6,7 @@ set nu "Line numbering
 colors desert "Set the text color scheme.
 set wrap "Line wrapping
 set lbr "Line wrapping at the word, extension of line 6
-set guifont=Anonymous\ Pro\ Regular\ 11 "Set the font for the vim and gvim
+set guifont=Iosevka\ 11 "Set the font for the vim and gvim
 filetype plugin on
 filetype indent on
 syntax on
@@ -20,36 +20,32 @@ vmap <C-C> "+y
 "This area is made for scripts and plugins I run for making vim and gvim more
 "productive. 
 
-map <F2> :w 
+map <F2> :w
 
-" Spellchecking (thanks, Luke Smith!). ***THIS WILL NOT ACCOUNT FOR MARKUP AND
 " PROGRAMMING LANGUAGES***
 map <F6> :setlocal spell! spelllang-en_us<CR>
 "Allow for vim-atm to turn on
 filetype plugin on
-filetype indent on
 syntax on
+set nocompatible 
 
+"inoremap <Space><Space> <Esc>/<Enter>"_c4l
 
 "------------------
-"LATEX
+"LaTeX Keyshortcuts
 "------------------
-" Shortcuts for commonly used things
-"autocmd FileType tex inoremap ;i \texit{<++>}<Space>T{i
-"autocmd FileType tex inoremap ;b \textbf{<++>}<Space>T{i
-"autocmd FileType tex inoremap ;ci \cite{<++>}<Space>T{i
-"autocmd FileType tex inoremap ;eq <Enter><Enter>\begin{equation}<Enter><++><Enter\end{equation}<Enter>2k2bcw
-"autocmd FileType tex inoremap ;ol <Enter><Enter>\begin{enumerate}<Enter>\item<++><Enter>\end{enumerate}<Enter>2k2bcw
-"autocmd FileType tex inoremap ;ul <Enter><Enter>\begin{itemize}<Enter>\item <++><Enter>\end{itemize}<Enter>2k2bcw
-"autocmd FileType tex inoremap ;sx <Enter>\section{<++>}<Enter>T{i
-"autocmd Filetype tex inoremap ;sxx <Enter>\subsection{<++>}<Enter>T{i
-"autocmd FileType tex inoremap ;sxxx \subsubsection{<++>}T{i
+"autocmd FileType tex ;i \textit{}<Space><++>FtT>i
+"autocmd FileType tex ;b \textbf{}<Space><++>FfT>i
+"autocmd FileType tex ;h1 \section{}<Space><++>FnT>i
+"autocmd FileType tex ;h2 \subsection{}<Space><++>FnT>i
+"autocmd FileType tex ;h3 \subsubsection{}<Space><++>FnT>i
+"autocmd FileType tex ;h4 \subsubsubsection{}<Space><++>FnT>i
+"autocmd FileType tex ;h5 \paragraph{}<Space><++>FhT>i
+"autocmd FileType tex ;h6 \subparagraph{}<Space><++>FhT>i
+"autocmd FileType tex ;eq \begin{equation}<Enter><++><ter>\end{equation}<Enter><++>
+"autocmd FileType tex ;ineq $$<Space><++>
+"autocmd FileType tex ;hrule \begin{center}<Enter>\noindent\rule{\linewidth}{0.5pt}<Enter>\end{center}<Enter><++>
 
-" Get these working later...
-
-
+"" Shortcuts for commonly used things
 "vim-plug vim package manager
 execute pathogen#infect()
-syntax on
-filetype plugin indent on
-
